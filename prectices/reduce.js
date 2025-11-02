@@ -60,6 +60,12 @@ const lookupTable=books.reduce((table,book)=>{
 
 const book=lookupTable[5]
 
+for(let book in lookupTable){
+    console.log(lookupTable[book]);
+}
+
+
+
 // lookup korle kno kisu onk taratari khuje pawa jay constant tim a tai ata k order of n(1) bole
 
 

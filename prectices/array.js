@@ -83,9 +83,33 @@ const products = [
 
 const topProducts = products
   .filter((item) => item.category === "Audio")
-  .sort((a, b) => b.rating - a.rating).slice(0,3)
-  .map((item)=>{
-    return {name:item.name}
-  })
+  .sort((a, b) => b.rating - a.rating)
+  .slice(0, 3)
+  .map((item) => {
+    return { name: item.name };
+  });
 
-  console.log(topProducts);
+console.log(topProducts);
+
+// -------------------------------------------------------
+
+const food = ["apple", "Banana", "mango"];
+food.sort((a, b) => {
+  a.localeCompare(b);
+});
+
+// jodi amra sudu sort kpri tahole age capital leter er gula by defult bhabe ase sort er
+//  -------------ata bad deyar jonno amra localeCompare () use kore tahke jate kno case sensitive na hoy a-z a sort kora jay
+
+// ---------------------------------------------------
+
+// flate arry
+
+
+
+const number =[1,2,3,4,5 ,[6,7,8,9]]
+const flatArray=number.flat()
+console.log(flatArray);
+
+
+// flat diye kno nasted array k ekta array te niye asa jay ex [1,2,3,4,5,6,7,8,9]

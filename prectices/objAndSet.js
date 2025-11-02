@@ -66,6 +66,13 @@ console.log(map);
 
 map.key()
 console.log([...map.key()]);
+map.value()
+console.log([...map.value()]);
 
 
 // map.key diye koyta ki ace dekha jey...spred kore nile arre of object akare return kore
+
+
+map.entries()
+console.log([...map.entries()]);
+// sov kisu dekhar jonno

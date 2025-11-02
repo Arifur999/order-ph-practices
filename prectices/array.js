@@ -112,4 +112,40 @@ const flatArray=number.flat()
 console.log(flatArray);
 
 
+// const flatArray=number.flat(Infinity)
+
+
+// onk besi nested hole amra to ata gone kora possible na tokhon amra infinite diye ata solve korte pari
+
 // flat diye kno nasted array k ekta array te niye asa jay ex [1,2,3,4,5,6,7,8,9]
+
+const number2 =[1,2,3,4,5 ,[6,3,8,1]]
+
+const removeDub=[...new set(number2.flat())]
+// atar maddome duplicate sorano jay
+
+
+// -----------------------------------------------------------
+// some
+
+const odd=[1,2,3,4,5,6]
+const oddNumber=odd.some((number)=>number % 2===0)
+
+// ans true
+
+// -------------------------------------
+// role with some
+
+const role1=["user","editor"]
+const role2=['admin','manager']
+
+const currentRole=role1.some((role)=>role2.includes(role))
+
+// ans false
+const role3=["user","editor","admin"]
+const role4=['admin','manager']
+
+const currentRole2=role3.some((role)=>role4.includes(role))
+
+// ans true
+

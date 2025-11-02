@@ -33,7 +33,7 @@ const delete =set.delete("arif")
 
 
 // --------------------------------------------------
-
+// brutforce
 
 const arr =["shadw","safi","hamza"]
 
@@ -52,6 +52,8 @@ arr.forEach(element => {
 
 // set diye
 
+
+// set implementation
 
 const arr =["shadw","safi","hamza"]
 
